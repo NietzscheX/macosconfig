@@ -2,4 +2,3 @@
 * ~/.tmux.conf
 * ~/.Hammerspoon
 * ~/.zshrc
-# macosconfig
