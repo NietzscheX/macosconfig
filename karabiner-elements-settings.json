@@ -1,5 +1,5 @@
 {
-    "description": "CAPS+H/J/K/L == ←↓↑→,  D=PageDown U=PageUP N=home M=end",
+    "description": "CAPS+H/J/K/L方向键,CAPS+ESC切换全角,CAPS+123代表F1 F2...",
     "manipulators": [
         {
             "conditions": [
@@ -45,8 +45,8 @@
             },
             "to": [
                 {
-                    "key_code": "grave_accent_and_tilde",
-                    "modifiers": ["left_shift"]
+                    "key_code": "h",
+                    "modifiers": ["left_shift", "left_option"]
                 }
             ],
             "type": "basic"
