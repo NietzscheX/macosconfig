@@ -533,6 +533,29 @@
             },
             "to": [{ "key_code": "grave_accent_and_tilde" }],
             "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "1",
+                "modifiers": {
+                    "mandatory": ["left_option"],
+                    "optional": ["caps_lock"]
+                }
+            },
+            "to_if_alone": [{ "select_input_source": { "input_source_id": "com.apple.keylayout.ABC" } }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "2",
+                "modifiers": {
+                    "mandatory": ["left_option"],
+                    "optional": ["caps_lock"]
+                }
+            },
+            "to_if_alone": [{ "select_input_source": { "input_source_id": "com.tencent.inputmethod.wetype.pinyin" } }],
+            "type": "basic"
         }
+
     ]
 }
